@@ -19,7 +19,7 @@ BLAST+
 
 Make sure the reads data is in './Reads/reads.fq', and the genome sequence is in './Genome/genome.fa'.
 
-### 1. Generate gaps list in reference genome (gaps in chr.0 are ignored).
+### 1. Generate gaps list in reference genome.
 >perl ./Script/1_generate_gap_list.pl
 
 ### 2. Extract 100 bp flank sequences in both side of gaps as the index of extending
